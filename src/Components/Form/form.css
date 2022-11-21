@@ -1,0 +1,149 @@
+.field-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 45%;
+    /* border: 1px solid black; */
+    margin: 280px 27.5%;
+}
+
+.fields-data{
+    
+scrollbar-width: 1px;
+}
+
+.field-count{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    /* border: 1px solid black; */
+}
+
+.field-title{
+    display: flex;
+
+}
+
+label{
+    /* border: 1px solid black; */
+    margin: 3px 10px;
+    height: 25px;
+}
+
+.field-data-input{
+    margin: 5px;
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid rgb(149, 146, 146);
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin-left: 40px;
+
+/* 
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    border-color: hsl(0, 0%, 80%);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: default;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    min-height: 38px;
+    outline: 0!important;
+    position: relative;
+    -webkit-transition: all 100ms;
+    transition: all 100ms;
+    box-sizing: border-box; */
+}
+
+input:focus, input.form-control:focus, select:focus {
+
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    border-bottom: 2px solid rgb(9, 10, 9) !important;
+}
+
+.no-outline:focus {
+    outline-width: 0;
+    outline: none;
+    border: none;
+  }
+
+.field-next-btn{
+    width: 120px;
+    height: 45px;
+    margin: 5px;
+    margin-top: 10px;
+    background-color: #BB2428;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 2px;
+    margin-left: 40px;
+}
+
+.field-next-btn > p{
+    /* border: 1px solid black; */
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.field-next-btn > p:hover{
+    cursor: pointer;
+}
+
+.field-next-btn > p > label:hover{
+    cursor: pointer;
+}
+
+.field-next-btn:active{
+    border: 2px solid #BB2428;
+}
+
+.field-check-btn{
+    margin-top: 10px;
+}
+
+.field-arrow{
+    margin-top: 8px;
+}
+
+@media screen and (max-width:600px) {
+
+    .field-data{
+        width: 70%;
+        margin: 280px 15%;
+    }
+
+    .field-data-input{
+        font-size: 14px;
+        /* width: 90%; */
+    }
+}

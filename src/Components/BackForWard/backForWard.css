@@ -1,0 +1,55 @@
+.main-buttons{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    /* border: 1px solid black; */
+    padding-right: 40px;
+    height: 40px;
+}
+
+.main-buttons > div{
+    width: 3%;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(245, 240, 240);
+    text-align: center;
+    background-color: #BB2428;
+    color: white;
+    border-radius: 3px;
+    font-weight: 900;
+    font-size: larger;
+}
+
+.main-buttons > div:hover{
+    background-color: #f74d55;
+    cursor: pointer;
+}
+
+@media screen and (max-width : 1000px) {
+
+    .main-buttons{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        /* border: 1px solid black; */
+        padding-right: 40px;
+        height: 40px;
+    }
+    
+    .main-buttons > div{
+        width: 10%;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgb(245, 240, 240);
+        text-align: center;
+        background-color: #BB2428;
+        color: white;
+        border-radius: 3px;
+        font-weight: 900;
+        font-size: larger;
+    }
+}
